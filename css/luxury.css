@@ -1,0 +1,69 @@
+.mcss-border-light {
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.ford{
+    height: 217px;
+    
+}
+.mcss-border-none{
+    border: none;
+}
+.mcss-padding-right{
+    padding-right: 1rem;
+}
+
+.effect{
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+     box-shadow:  3px 3px 9px rgba(164,164,186,0.2);
+}
+#luxury-main{
+    margin-top: 5rem;
+    padding-top: .6rem;
+}
+
+.mcss-list-style-none{
+    list-style: none;
+    padding: 0;
+}
+/* font-size */
+.mcss-fs-2{
+    font-size: 1.2rem;
+}
+
+.mcss-font-small{
+    font-size: .9rem;
+}
+/* gap */
+.mcss-gap-1{
+    gap: .9rem;
+}
+
+
+.mcss-gap-2-9{
+    gap: 2.9rem;
+}
+.mcss-gap-2-8{
+    gap: 2.8rem;
+}
+.mcss-gap-3-3{
+    gap: 3.3rem;
+}
+.mcss-gap-3-4{
+    gap: 3.4rem;
+}
+.mcss-gap-3-8{
+    gap: 3.8rem;
+}
+/* background-color */
+main{
+    background-color: #edf1f7;  
+}
+.mcss-btn-primary{
+    background: rgb(24, 156, 244);
+}
+
+/* font-weight */
+.mcss-fw-1{
+    font-weight: 300;
+}

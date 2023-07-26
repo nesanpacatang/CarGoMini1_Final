@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" Content="Welcome to our car rental company! We are dedicated to providing you with a comfortable, affordable, and hassle-free rental experience. Whether you're traveling for business or leisure, we've got you covered with a wide variety of vehicles to choose from.">
+    <meta name="keywords" content="cargo, rental cars, cargo rental, cargo cars">
+    <link rel="shortcut icon" href="./img/full-logo-dark.png" type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>CarGo | Contact</title>
+</head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu ">
+
+    <!-- header consist of brand-logo and navbar or the menu list  -->
+    <header>
+      <nav id="main_menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img class="logo-image"
+            src="./img/navbar-logo-light.png"
+            alt="cargo logo"
+            width="350"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <navbar id="mainMenu" class="collapse navbar-collapse">
+
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="branches.html">Branches</a></li>
+            <li class="dropdown">
+              <a
+                class="nav-link rounded-bottom dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Cars</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="luxury.html">Luxury</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="business.html">Business</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="travel.html">Travel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bride.html">Bride</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pick-up.html">Pick-up</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="casual.html">Casual</a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link ative dropdown-toggle active"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="sign_in.html">Reservations</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sign_in.html">Sign In</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </navbar>
+      </div>
+    </header>
+
+
+    <main class=" bg-light">
+      <!-- #############   Contact Us ############# -->
+      <section id="contact">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <div class="card p-4 my-5 text-center">
+                <h2 class="mb-3">Contact Us</h2>
+                <p>We have 24/7 Customer Service Support.</p>
+                <p>
+                  Please be patient, it will take less than 10 minutes before we
+                  get in touch with you.
+                </p>
+
+                <form action="process.php" class="p-3 text-start">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input
+                      type="name"
+                      name="name"
+                      id="name"
+                      placeholder="Enter Your Name"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Enter Your Email"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Your Phone</label>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Enter Your Phone"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Enter Your Message"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                  <button class="btn btn-info">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      <!-- #############   Footer  ############# -->
+    
+      <footer id="footer" class="pt-2 bg-light border-top">
+        <div class="container pb-2">
+          <div class="row">
+            <div class=" col-md-4 text-center">
+              <h3>Services</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2 border-bottom"><a href="branches.html">Branches</a></li>
+                <li class="mb-2 border-bottom"><a href="#">Contact Us</a></li>
+                <li class="mb-2 border-bottom"><a href="faq.html">FAQs</a></li>
+                <li class="mb-2"><a href="sign_in.html">Sign In</a></li>
+              </ul>
+            </div>
+            <div class=" col-md-4 text-center">
+              <h3>Contact Details</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2 border-bottom">Phone Number: (+63) 988 123 4567 </li>
+                <li class="mb-2 border-bottom">Telephone Number: (02) 846 9564 </li>
+                <li class="mb-2 border-bottom">Email: cargorentals@gmail.com</a></li>
+                <li class="mb-2">Address: 2265f Agoncillo St, Malate, Manila, 1004 Metro Manila</li>
+              </ul>
+            </div>
+  
+            <div class="col-md-4 text-center">
+              <h3>Didn't Join Yet?</h3>
+              <h2>Join Our Community</h2>
+              <p>For better experience and smoother transactions.</p>
+              <a class="btn btn-info py-3 fw-bold" href="sign_up.html"
+                >Join Our Community</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>Copyright &copy; 2023 | CarGo | Developed by Team MDPE | Kodego Bootcamp</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Bootstrap Script -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>

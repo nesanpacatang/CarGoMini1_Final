@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+#mainMenu .nav-link {
+  color: #3399cc;
+  border-radius: 5px;
+}
+.mcss-height{
+  height: 40;
+}
+a {
+  text-decoration: none;
+  color: #330000;
+}
+#mainMenu .nav-link:hover {
+  background: #3399cc;
+  color: #fff;
+  border-radius: 5px;
+  
+  
+}
+
+#mainMenu .nav-link.active {
+  background: #3399cc;
+  color: #fff;
+}
+#footer li a {
+  text-decoration: none;
+  margin-bottom: 2px #333 solid;
+  color: #330000;
+}
+#about img,
+#branches img,
+#about-page img {
+  max-width: 100%;
+}
+#hero .container {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 150px;
+}
+.btn-info {
+  background: #3399cc;
+  border-color: #3399cc;
+}
+.bg-fff {
+  background: #fff;
+}
+.bg-primary {
+  background: #3399cc;
+}
+.btn-primary {
+  background: #3399cc;
+  border-color: #3399cc;
+}
+.bg-secondary {
+  background: #cdb99c;
+}
+.btn-secondary {
+  background: #a78d66;
+}
+.btn-info {
+  background: #236ddd;
+  border-color: #236ddd;
+  color: #fff;
+}
+.btn-info:hover {
+  background: #fff;
+  color: #330000;
+  border-color: #236ddd;
+}
+h2 {
+  font-weight: 900;
+}
+#organization .card-header {
+  background: #3399cc;
+}
+#organization .item {
+  border-radius: 40%;
+  overflow: hidden;
+}
+#sign-in .mt-6 {
+  margin-top: 80px;
+}
+#reviews a {
+  color: #3399cc;
+}
+/* COLORS */
+/* #3399CC
+#CDB99C
+#330000
+#ddb223 */
+
+/* Car Categories */
+
+.mcss-text-yellow-light {
+  color: #ddb223;
+}
+.mcss-text-silver {
+  background: #9e9e9e;
+}
+.mcss-text-less-dark {
+  color: #4e5d78;
+}
+
+.mcss-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+
+  height: 45px;
+  width: 45px;
+  margin: auto 0;
+}
+
+
+.light-blue {
+  background: rgb(182 223 255);
+}
+
+.light-green {
+  background: #adf5ad;
+}
+.light-red {
+  background: #f1d3d3;
+}
+.light-purple {
+  background: #f3d4f3;
+}
+.bg-semi-light {
+  background: #edecec;
+}
+
+.mcss-fw-1 {
+  font-weight: 100;
+}
+
+.effect {
+  background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+  box-shadow: 3px 3px 9px rgba(164, 164, 186, 0.2);
+}
+
+.mcss-border {
+  border-radius: 20px;
+  border: 1px solid rgb(24, 156, 244);
+}
+
+.mcss-border-none {
+  border: none;
+}
+.mcss-border-light {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.pl-1 {
+  padding-left: 0.3rem;
+}
+
+.mcss-mt-3 {
+  margin-top: 10rem;
+}
+
+
+ @media (max-width:500px) {
+    .hero-text-hide{
+      display: none;
+    }
+    .hero-image-relative{
+      position: relative;
+      top: 35px;
+    }
+    .about-image-mbottom{
+      margin-bottom: 1.5rem;
+      margin-top: .5rem;
+    }
+    .get-started-center{
+      
+      display: flex;
+      place-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .about-cargo-hide{
+      display: none;
+    }
+    .sign-up-margin{
+      margin-top: 3rem;
+    }
+    .logo-image{
+      height: 40px;
+      width: 150px;
+    }
+    .branches-image{
+      width: 100%;
+    }
+    .branches-image1{
+      height: 100%;
+    }
+}
